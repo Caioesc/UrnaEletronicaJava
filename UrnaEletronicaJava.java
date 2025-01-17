@@ -1,30 +1,30 @@
 import java.util.Scanner;
 
 public class UrnaEletronicaJava {
-    private int votosNulos = 0;
-    Candidato [] candidatos;
+    
+    private int _votosNulos = 0;
+    private Candidato [] candidatos;
 
     public UrnaEletronicaJava(){
-        candidatos = new Candidato[5];
+        this.candidatos = new Candidato[5];
 
-        Candidato ada = new Candidato("Ada Lovelace", 01);
-        candidatos[0] = ada;
-
-        Candidato alan = new Candidato("Alan Turing", 02);
-        candidatos[1] = alan;
-
-        Candidato marie = new Candidato("Marie Curie", 03);
-        candidatos[2] = marie;
-
-        Candidato albert = new Candidato("Albert Einstein", 04);
-        candidatos[3] = albert;
-
-        Candidato ludwig = new Candidato("Ludwig van Beethoven", 05);
-        candidatos[4] = ludwig;
+        this.candidatos[0] = new Candidato("Ada Lovelace", 01);
+        this.candidatos[1] = new Candidato("Alan Turing", 02);
+        this.candidatos[2] = new Candidato("Marie Curie", 03);
+        this.candidatos[3] = new Candidato("Albert Einstein", 04);
+        this.candidatos[4] = new Candidato("Ludwig van Beethoven", 05);
     }
+
+    public void receberVoto(int numero){
+        
+        }
+    }
+
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println();
+        
         
     }   
 }
