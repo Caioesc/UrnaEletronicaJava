@@ -19,14 +19,14 @@ Para rodar este projeto, você precisa dos seguintes requisitos:
 
 ### 1. JDK 17 ou superior
 Este projeto foi desenvolvido utilizando **JDK 17**. Você pode baixar a versão mais recente do JDK a partir do link abaixo:
-- [Download JDK 17](https://jdk.java.net/17/)
+- [Download JDK 17](https://www.oracle.com/br/java/technologies/downloads/)
 
 ### 2. Visual Studio Code (VSCode)
 O código foi desenvolvido usando o **Visual Studio Code (VSCode)**. Você pode baixar o VSCode em:
 - [Download Visual Studio Code](https://code.visualstudio.com/)
 
 ### 3. Extensões recomendadas para VSCode
-Para um desenvolvimento eficiente no VSCode, recomendamos as seguintes extensões:
+Para um desenvolvimento eficiente no VSCode, recomendo as seguintes extensões:
 
 - **Java Extension Pack**: Esta extensão inclui todas as ferramentas necessárias para o desenvolvimento em Java no VSCode, como depuração, IntelliSense e integração com Maven/Gradle.
     - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
@@ -36,11 +36,3 @@ Para um desenvolvimento eficiente no VSCode, recomendamos as seguintes extensõe
 
 - **Maven for Java** (opcional, se usar Maven no projeto): Para facilitar o gerenciamento de dependências.
     - [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
-
-## Como rodar o projeto
-
-### Passos para rodar o código:
-
-1. Certifique-se de que você tenha o **JDK 17** instalado e configurado corretamente no seu computador. Para verificar, execute o seguinte comando no terminal:
-   ```bash
-   java -version
