@@ -8,7 +8,7 @@ public class Candidato {
         this._numero = numero;
     }
 
-    public String getNOme(){
+    public String getNome(){
         return this._nome;
     }
     
