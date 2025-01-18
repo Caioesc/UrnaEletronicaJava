@@ -19,7 +19,7 @@ Para rodar este projeto, você precisa dos seguintes requisitos:
 
 ### 1. JDK 17 ou superior
 Este projeto foi desenvolvido utilizando **JDK 17**. Você pode baixar a versão mais recente do JDK a partir do link abaixo:
-- [Download JDK 17](https://www.oracle.com/br/java/technologies/downloads/)
+- [Download JDK](https://www.oracle.com/br/java/technologies/downloads/)
 
 ### 2. Visual Studio Code (VSCode)
 O código foi desenvolvido usando o **Visual Studio Code (VSCode)**. Você pode baixar o VSCode em:
